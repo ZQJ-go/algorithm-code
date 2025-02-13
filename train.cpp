@@ -2,10 +2,10 @@
 #include<algorithm>
 #include<vector>
 using namespace std;
-int n, S;
+int n, s;
 int main()
 {
-    cin >> n >> S;
+    cin >> n >> s;
     vector<int> p; 
     vector<int> c; 
     while (n--)
@@ -29,7 +29,7 @@ int main()
                 flag = 0;
             }
         }
-        sum += min(sum1, S);
+        sum += min(sum1, s);
         if (flag)
             break;
     }
